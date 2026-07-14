@@ -12,6 +12,8 @@ P4 = weak/unverified).
 | ID | Date logged | Entity | Figure / claim | Type | Tier | URL or file |
 |---|---|---|---|---|---|---|
 | SRC-001 | 2026-07-13 | CBA | Monthly refinancing-rate series (shipped sample) | local file | P4 | data/cba-refinance-rate.csv — **sample/illustrative, not authoritative; refresh from official CBA before publishing** |
+| SRC-002 | 2026-07-14 | US Federal Reserve | Federal funds target range, upper limit = 3.75% (range 3.50%–3.75%) as of 2026-06-17 | official web | P0 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm |
+| SRC-003 | 2026-07-14 | Bank of England | Bank Rate = 3.75% as of 2026-06-17 (MPC meeting ending 17 June 2026) | official web | P0 | https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026 |
 
 <!--
 Row template:

@@ -10,7 +10,7 @@ with a reason and point to the id that replaced it.
 
 | ID | Name | File | Class | Source(s) | Status | Notes |
 |---|---|---|---|---|---|---|
-| _(none yet)_ | | | | | | Run `intake` to add the first dataset. |
+| DS-001 | Peer central-bank policy rates (US, UK) | data/peer-rates.csv | public | SRC-002, SRC-003 | raw | Published policy rates from issuing central banks (P0); public by nature. This round covers US (Fed) and UK (BoE) only — other default peers (ECB, Bank of Russia, Bank of Georgia) not yet fetched. |
 
 <!--
 Row template:
