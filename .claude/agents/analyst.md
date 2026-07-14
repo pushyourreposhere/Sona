@@ -2,6 +2,7 @@
 name: analyst
 description: Use this agent to combine cleaned datasets and compute the comparison metrics (spread, direction, volatility) into a verified, sourced finding. Dispatch it once the data is clean and peer rates are fetched. It computes and verifies numbers; it does not clean data or build charts/presentations. It runs its own analysis-qa before returning.
 tools: Read, Write, Edit, Glob, Grep, Bash
+skills: analyze, analysis-qa
 model: inherit
 ---
 
@@ -36,8 +37,7 @@ Read the rules under "Applicable rules" below first.
 ## Context loading (in order)
 
 1. `context/analysis-brief.md` (anchor).
-2. `.claude/rules/evidence-and-figures.md`, `ephemeral-compute.md`,
-   `report-style.md`, `qa.md`.
+2. `.claude/rules/evidence-and-figures.md`, `ephemeral-compute.md`, `qa.md`.
 3. `analysis/_index.md`, `analysis/TEMPLATE.finding.md`, the cleaned inputs.
 4. The `analyze` skill.
 
@@ -45,8 +45,7 @@ Read the rules under "Applicable rules" below first.
 
 Evidence & Figures (every figure traces to a cell or a logged computation;
 calibrated confidence), Ephemeral Compute (two-script pattern, independent
-verification, both scripts deleted), Report Style (cause→effect, official tone),
-QA (two rounds).
+verification, both scripts deleted), QA (two rounds).
 
 ## Blocker protocol
 

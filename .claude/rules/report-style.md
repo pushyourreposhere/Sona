@@ -1,11 +1,23 @@
+---
+name: report-style
+description: Neutral, answer-first, cause→effect tone and structure for management-facing outputs. Scoped to the presentations folder and .pptx decks only.
+globs:
+  - "presentations/**"
+  - "**/*.pptx"
+alwaysApply: false
+---
+
 # Rule: Report Style
 
-**Applies to** prose in `analysis/` findings and `presentations/`. It is referenced
-by the analyze/presentation skills and the analyst/presenter agents — read it before
-turning numbers into words.
+**Applies to** prose in the `presentations/` folder and any `.pptx` files — the
+management-facing outputs only (the `globs` in this file's frontmatter are the
+authoritative path scope). It is referenced by the presentation skills and the
+presenter agent — read it before turning numbers into words. It does **not** govern
+`analysis/` findings; those follow the evidence, QA, and ephemeral-compute rules but
+are not held to this presentation tone/structure standard.
 
-How numbers become words a decision-maker can act on. Applies to findings and,
-especially, presentations.
+How numbers become words a decision-maker can act on. Applies to the
+`presentations/` outputs (HTML presentations and `.pptx` decks).
 
 ## Core rule
 

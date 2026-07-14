@@ -53,10 +53,11 @@ then deleted. Overall verdict: **PASS / FAIL**. `scratch/` confirmed empty.
 
 ## What it means (cause → effect)
 
-<Interpretation, in official tone, tying each claim to a figure above. Prefer
+<Interpretation, in a neutral tone, tying each claim to a figure above. Prefer
 "CBA holds a positive spread of X pp over the peer median, because it has held at
-Y% while peers cut, which implies Z." Avoid marketing language — see
-rules/report-style.md.>
+Y% while peers cut, which implies Z." Avoid marketing language. (This is good
+practice for a finding; the `report-style` rule itself governs `presentations/`
+only, so findings are not formally bound by it.)>
 
 ## Caveats & open questions
 

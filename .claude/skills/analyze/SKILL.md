@@ -47,8 +47,10 @@ or a logged computation (`.claude/rules/evidence-and-figures.md`).
    `analysis/FND-NNN-<slug>.md` and fill every section: answer-first; a key-figures
    table where each value cites a `DS`/`SRC`/Method origin; the **Method** section
    (prose record of the now-deleted script); the **Independent verification**
-   table with the `PASS`/`FAIL` verdict; cause→effect interpretation
-   (`.claude/rules/report-style.md`); caveats (**including any date mismatch between
+   table with the `PASS`/`FAIL` verdict; a cause→effect interpretation in the
+   finding's "What it means" (a finding is not held to the `report-style` rule —
+   that governs `presentations/` only — but a clear cause→effect reading still
+   helps the downstream presenter); caveats (**including any date mismatch between
    the CBA series and the peer rates**); a calibrated confidence rating.
 4. **Register** — add the `FND-NNN` row to `analysis/_index.md`. Confirm
    `scratch/` is empty.

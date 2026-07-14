@@ -7,8 +7,10 @@ user-invocable: true
 
 # Skill: analysis-qa
 
-Checks a finding against `.claude/rules/qa.md`, `evidence-and-figures.md`,
-`ephemeral-compute.md`, and `report-style.md`. Returns **PASS** / **NEEDS-REWORK**.
+Checks a finding against `.claude/rules/qa.md`, `evidence-and-figures.md`, and
+`ephemeral-compute.md`. Returns **PASS** / **NEEDS-REWORK**. (The `report-style`
+rule governs `presentations/` only, so a finding is not held to it — but check #9
+still asks for a clear, non-marketing interpretation as good practice.)
 
 ## Round 1 — Compliance
 
@@ -32,8 +34,9 @@ Checks a finding against `.claude/rules/qa.md`, `evidence-and-figures.md`,
 8. **(soft, fix aggressively)** Confidence matches the evidence per
    `evidence-policy.md` — a single-source, uncorroborated number is at most
    `Workable`; a P4-only figure at most `Shaky`. Correct an over-rating.
-9. **(soft)** Interpretation is cause→effect and neutral — no marketing pathos
-   (`report-style.md`).
+9. **(soft)** Interpretation is cause→effect and neutral — no marketing pathos.
+   (Good practice for the finding's "What it means"; the `report-style` rule
+   itself is scoped to `presentations/` and does not bind findings.)
 10. **(hard) Date comparability.** If the CBA figure and the peer figures carry
     different `as_of` dates, the finding must state the mismatch as a caveat and
     must not present the spread as a same-dated comparison. A stale-vs-current
