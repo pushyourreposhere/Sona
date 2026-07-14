@@ -35,12 +35,15 @@ Always pair an id with its human name (workspace-wide convention, root `CLAUDE.m
 ## Standards for this folder
 
 - **Brief first.** No searching before the task is written as an `RB-NNN` brief and
-  registered — the brief is the anchor for the research.
+  registered — the brief is the anchor for the research. Briefs follow
+  `TEMPLATE.brief.md`; the `web-research` skill fills the results into it.
 - **No unsourced claim.** Every statement in a finding or report traces to an
   `RS-NNN` source in `_sources-index.md` with a resolvable URL
   (`.claude/rules/evidence-and-figures.md`). "Not found" is an acceptable answer.
 - **Public queries only.** Only public search queries leave the machine; never send
   internal or restricted data to a web tool (`.claude/rules/safe-zone.md`).
 
-**Primary files**: `_briefs-index.md` (briefs) · `_sources-index.md` (sources) ·
-`CLAUDE.md`.
+**Primary files**: `_briefs-index.md` (briefs registry) · `_sources-index.md`
+(sources registry) · `TEMPLATE.brief.md` (brief shape) · `CLAUDE.md`.
+Owned by the `web-researcher` agent · skills `web-research` (find) + `research-qa`
+(check).
