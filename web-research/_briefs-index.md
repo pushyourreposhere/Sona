@@ -10,7 +10,7 @@ reason and point to the id that replaced it.
 
 | ID | Research question / title | Scope & window | Status | File |
 |---|---|---|---|---|
-| _(none yet)_ | | | | Write the first brief in `briefs/` and register it here. |
+| RB-001 | Current official policy / refinancing rates: US, UK, EU, Armenia | 4 central banks · current rate as of 2026-07-21 | answered | briefs/RB-001-current-policy-rates-us-uk-eu-am.md |
 
 <!--
 Row template:
