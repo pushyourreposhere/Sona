@@ -31,8 +31,10 @@ Run it on your own output before returning (web-researcher), or standalone.
    nothing "recalled" or invented (`evidence-and-figures.md` Rule 0). Parts of the
    intent with no credible source are declared **"not found"**, not filled with a
    plausible guess.
-6. **(hard) Sources support the claims.** Spot-check: open at least one cited URL
-   and confirm it actually says what the brief attributes to it. A claim the source
+6. **(hard) Sources support the claims.** Each `RS-NNN` has an evidence block in the
+   brief's companion `evidence/RB-NNN-slug.sources.md` (from `TEMPLATE.sources.md`)
+   with a verbatim excerpt. Spot-check: open at least one cited URL and confirm it
+   actually says what the excerpt and the brief attribute to it. A claim the source
    does not support is a hard failure.
 7. **(hard) The data found is good.** Sources are credible for the claim they back —
    prefer primary / authoritative over aggregators, blogs, or forums. A load-bearing

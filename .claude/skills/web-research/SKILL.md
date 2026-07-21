@@ -38,8 +38,10 @@ web-research domain; `research-qa` is the quality gate.
    statistics, original publisher) over aggregators and second-hand summaries.
 4. **Log every source consulted** as an `RS-NNN` row in `_sources-index.md`: date
    accessed, title · publisher, the resolvable **URL**, and the `RB-NNN` it serves.
-   Capture the supporting excerpt/citation under `web-research/evidence/` keyed to
-   the `RS-NNN`. **No claim without a source.**
+   Then capture the detail in the brief's companion evidence file — copy
+   `web-research/TEMPLATE.sources.md` to `web-research/evidence/RB-NNN-<slug>.sources.md`
+   and record, per `RS-NNN`, its credibility and the **verbatim excerpt** that backs
+   the claim. **No claim without a source.**
 5. **Extract the results.** Pull the facts, figures, and quotes that answer the
    brief, each tied to the `RS-NNN` it came from. If part of the intent can't be
    answered from a credible source, record **"not found — no credible source

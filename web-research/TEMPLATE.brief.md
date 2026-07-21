@@ -39,10 +39,11 @@ No claim without a source.
 
 ## Sources consulted
 
-<The `RS-NNN` sources this brief rests on — id · title · publisher · URL · date
-accessed. The authoritative list lives in `_sources-index.md`; summarize the
-load-bearing ones here. Note each source's credibility (primary / official vs
-secondary / aggregator).>
+<The `RS-NNN` sources this brief rests on. Full detail — URL, date accessed,
+credibility, and the verbatim excerpt each claim relies on — is captured in the
+companion `evidence/RB-NNN-slug.sources.md` (from `TEMPLATE.sources.md`); each
+`RS-NNN` is also registered in `_sources-index.md`. Summarize the load-bearing
+ones here (id · title · publisher · credibility).>
 
 ## Gaps / not found
 

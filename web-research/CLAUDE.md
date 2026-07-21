@@ -28,7 +28,9 @@ Always pair an id with its human name (workspace-wide convention, root `CLAUDE.m
 
 - `briefs/` — one file per brief (`RB-NNN-slug.md`): the question, why it matters,
   scope, success criteria.
-- `evidence/` — captured source material and citations, keyed to each `RS-NNN`.
+- `evidence/` — the per-brief **sources & evidence** record (`RB-NNN-slug.sources.md`
+  from `TEMPLATE.sources.md`): each `RS-NNN` with its verbatim excerpt and
+  credibility, keyed to the brief it supports.
 - `findings/` — verified answers distilled from the evidence.
 - `reports/` — final research write-ups for a reader.
 
@@ -44,6 +46,7 @@ Always pair an id with its human name (workspace-wide convention, root `CLAUDE.m
   internal or restricted data to a web tool (`.claude/rules/safe-zone.md`).
 
 **Primary files**: `_briefs-index.md` (briefs registry) · `_sources-index.md`
-(sources registry) · `TEMPLATE.brief.md` (brief shape) · `CLAUDE.md`.
+(sources registry) · `TEMPLATE.brief.md` (brief shape) · `TEMPLATE.sources.md`
+(per-brief sources & evidence shape) · `CLAUDE.md`.
 Owned by the `web-researcher` agent · skills `web-research` (find) + `research-qa`
 (check).
